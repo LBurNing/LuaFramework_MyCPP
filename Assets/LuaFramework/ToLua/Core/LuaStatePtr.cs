@@ -624,6 +624,7 @@ namespace LuaInterface
         public void OpenToLuaLibs()
         {
             LuaDLL.tolua_openlibs(L);
+            LuaDLL.InitFrame(L);
             LuaOpenJit();
         }
 
