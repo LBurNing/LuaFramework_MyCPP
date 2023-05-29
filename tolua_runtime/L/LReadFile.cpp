@@ -27,10 +27,6 @@ static int lhh_readfile(lua_State* L)
                 lua_pushstring(L, (const char*)buffer);
                 free(buffer);
             }
-            else
-            {
-
-            }
         }
 
         fclose(file);
